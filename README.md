@@ -2,6 +2,8 @@
 CRF-Based-Malayalam-POS-Tagger
 # How to run the POS Tagger
 sh run_malayalam_pos_model_and_save_to_file.sh input_file_path output_file_path pos_model_path
+# Please install CRF++ toolkit. All the necessary details can be accesed from the below website:
+https://taku910.github.io/crfpp/
 # Here, you can use the following command
 sh run_malayalam_pos_model_and_save_to_file.sh malayalam_input_raw_sentences.txt malayalam_pos_conll.txt malayalam-pos-model.m
 # Make sure that the sentences in the input file are tokenized.
